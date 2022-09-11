@@ -1,47 +1,171 @@
+/* Variables */
+:root {
+  --o: rgb(250, 161, 89);
+  --g: rgb(3, 85, 64);
+  --lp: rgb(255, 219, 225);
+  --mp: rgb(247, 96, 121);
+  --dp: rgb(223, 137, 151);
+  
+
+}
+
+
 
 /*universal selector*/
 
 * {
+    background-color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /*element selectors*/
-  /*base of webpage*/
+  /* element selectors */
+  /* base of webpage */
   html {
     height: 100%;
   }
   
   body {
+    flex-direction: column;
     min-height: 100%;
     line-height: 1;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:, Tahoma, Geneva, Verdana, sans-serif;
+
   }
 
 
-  /* header area */
-  .title {
+
+
+ /* header area */
+
+ #header-bg {
+    border: none;
+    width: 100%;
+    opacity: .3;
+    border-radius: 0%;
+    box-shadow: none;
+    margin:0px;
+   
+    
+  }
+
+ .title {
+   
+    font-size: 400%;
+    font-weight: bolder;
+    float: left;
     padding: 20px;
     text-align: center;
     color:blue;
+}
+
+
+li {
+  
+  margin: 30px;
+  float: right;
+  list-style-type: none;
+  display: inline-block;
+  transition: 2s;
+  
+} 
+ /* Profile Picture */
+  img {
+    display: inline;
+    margin:0px 50px 0px 50px ;
+    float:right;
+    border-radius: 50px;
+    border: 5px solid var(--g);
+   
   }
 
-  .subtitle {
-    color:red;
-  }
-
-  span {
-    background-color: aquamarine;
+  img:hover {
+     box-shadow: 5px 5px 80px 10px var(--lp);
   }
 
 
 
-  /* media queries  */
+#parentDiv {
+    display: flex;
+    width: 100%;
+    position: relative
+}
+
+#about{
+  margin-top: 50px;
+  text-align: justify;
+  display: flex;
+  width:500px;
+  height: 500px;
+  text-align: auto;
+  background-color: white;
+  line-height: 400%;
+  width: 500px;
+}
+
+#aboutme {
+    border-right: 4px solid var(--g);
+    flex: 25%;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 20px;
+    margin: 50px;;
+}  
+
+
+
+   
+#childDiv2{
+    flex: 75%;
+    flex-direction: column;
+}
+
+#image1{
+    opacity: 0.8;
+    height: 300px;
+    border-radius: 25px;
+}
+
+#childDiv1, #childDiv2{
+   
+}
+
+ 
+
+  
+
+
+
+
+  
+
+    .lesson {
+      background-color: lemonchiffon;
+    }
+    
+    
+    
+    #email {
+      background-color: DarkSalmon;
+    }
+    
+    #github {
+      background-color: LightPink;
+    }
+    
+    #portfolio {
+      background-color: LavenderBlush;
+    }
+    
+
+
+  /* media queries  
   @media screen and (max-width: 1280px) {
 
+    
     .title {
-      color:pink;
+      color:var(--g);
     }
   }
 
@@ -50,14 +174,25 @@
     .title {
       color:hotpink;
     }
-  }
+  }*/
 
   @media screen and (max-width: 480px) {
 
-    .title {
+    body {
+      display: flex;
+      justify-content: space-between;
+  
+    }
+    
+    body {
+      width: 30%;
+    }
+      .title {
       color:purple;
     }
+  
   }
+
  
   
 
