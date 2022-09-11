@@ -1,0 +1,91 @@
+
+/*universal selector*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*element selectors*/
+  /*base of webpage*/
+  html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    line-height: 1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+  /* header area */
+  .title {
+    padding: 20px;
+    text-align: center;
+    color:blue;
+  }
+
+  .subtitle {
+    color:red;
+  }
+
+  span {
+    background-color: aquamarine;
+  }
+
+
+
+  /* media queries  */
+  @media screen and (max-width: 1280px) {
+
+    .title {
+      color:pink;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+
+    .title {
+      color:hotpink;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .title {
+      color:purple;
+    }
+  }
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+  }
+  
+  input, select, option, optgroup, textarea, button,
+  pre, code {
+    font-size: 100%;
+    font-family: inherit;
+  }
+  
+  ol, ul {
+    list-style: none;
+  } */
