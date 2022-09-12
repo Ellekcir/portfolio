@@ -1,84 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Rickelle Griffith's Portfolio</title>
-  
-    <link rel="stylesheet" href="./assets/style.css" />
-  </head>
-
-
-  <!-- This is where the title is -->
+</head>
 <body>
-  <header>
-    <img id="header-bg" src="/assets/Background.jpg" alt="Background landscape" >
-    <h1 class="title">RICKELLE GRIFFITH</h1>
-    <nav>
-      <ul>
-        <li>
-          <a href="#about" >ABOUT ME</a>
-        </li>
-        <li>
-          <a href="#portfolio">PORTFOLIO</a>
-        </li>
-        <li>
+<!--HEADER AND NAV SECTION-->
+    <header>
+        <img id="profile" src="/assets/RickelleBW.jpg" alt="Rickelle Griffith Image" style="display: block; align:center ">
+        <h1 id="h1">RICKELLE | GRIFFITH</h1> 
+    
+        <nav>
+          <a href="#about">ABOUT ME</a>  
+          <a href="#work">MY WORK</a>  
           <a href="#contact">CONTACT</a>
-        </li>
-      </ul>
-   </nav>
-  </header>
- 
+        </nav>
+    </header>    
 
-  <body>
-      <!-- FlexBox -->
-      <!-- div, p, h1,... Block level elements-->
-      <div id="parentDiv">
-          <div id="aboutme">
-              ABOUT ME
-          </div>
-          <div id="childDiv2">
-              <div id="image1"> 
-                  <a href="">
-                  <img src="/assets/Rickelle.jpg" alt="Rickelle Griffith Image" style="width: 200px"  >
-                  </a>
-                  
-              <div id="about"> An inspiring web-developer, night owl by nature, self acclaimed comedian and a coffee dependant adventurer. Exploring opportunities and seeking life experience to pass down to future generations.
-
-              </div>
-
-          </div>
-      </div>
-
-  <!---      <section>
-      
-        <ul> 
-          <section class="lesson" id="email">
-            <li><strong>Email:</strong><button> <a href="rickelle.1993@live.com.au"> rickelle.1993@live.com.au</a></button></li>
-          </section>
+    <main>
+        <div class="m-container">
+<!-- ABOUT ME SECTION -->
           
-          <section class="lesson" id="github">
-            <li><strong>Github:</strong> <a href="https://github.com/Ellekcir">Ellekcir</a></li>
-          </section>  
-          
-          <section class="lesson" id="portfolio">
-            <li><strong>Portfolio:</strong> <a href="https://ellekcir.github.io/prework-study-guide/">Coming Soon</a></li> 
-          </section>
-          </ul>-->
-  </body>
-  </html>
+            <section id="about"style="margin:0px 20px 20px 20px">
 
-</body> 
+                <div id="a-left">
+                    <h2>About Me</h2>
+                </div>
 
-<!-- put in header - Name, recent photo, links to sections: ABOUT ME, MY WORK, CONTACT ME
+                <div id="a-right">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </section>
 
- <h6 class="subtitle"><span>Thanks </span>for visiting my Portfolio</h2>-->
+<!-- MY WORK SECTION -->
+            <section id="work"style="margin:20px">
+                
+                <div id="w-left">
+                    <h2>My Work</h2>
+                </div>
 
-<!--Navagation links to corresponding sections-->
-<!-- Work Section with titled images 1st one is biggest, images link to deployed sites-->
-<!-- Viewing for all  screen resolution layouts-->
-<!--
-              </div>
-              <div id="image1"> 
-                  <img src="https://th.bing.com/th/id/R.d4c11f6c0099fd3139165482a366dd28?rik=1908nuqYJi6XkA&pid=ImgRaw&r=0" alt="" style="width:300px; height:300px">
-              </div>-->
+                <div id="w-right">
+<!--Main Image for My Work-->
+                    <div id="w-r-top">
+                        <img src="https://image.shutterstock.com/image-illustration/conceptual-image-website-design-development-600w-1036804831.jpg" alt="Rickelle's Main Website" style="max-width:100%;">
+                    </div>
+
+<!--Smaller Photos of My Work-->
+                    <div id="w-r-bottom">
+                        <div class="photos">
+                            <img src="https://image.shutterstock.com/image-illustration/internet-media-intelligence-screen-monitoring-600w-1996580468.jpg" alt="Website Example 1" style="max-width: 100%; ">
+                        </div>
+                        <div class="photos">
+                            <img src="https://image.shutterstock.com/image-illustration/social-network-media-analysis-conceptual-600w-1996580450.jpg" alt="Website Example 2" style="max-width: 100%;">
+                        </div>
+                        <div class="photos">
+                            <img src="https://image.shutterstock.com/image-photo/computer-programming-coding-conceptual-image-600w-1996580465.jpg" alt="Website Example 3" style="max-width: 100%;">
+                        </div>                        
+                        <div class="photos">
+                            <img src="https://image.shutterstock.com/image-illustration/internet-information-technology-conceptual-image-600w-2141958711.jpg" alt="Website Example 4" style="max-width: 100%;">
+                        </div> 
+                    </div>
+                
+            </section>
+
+<!--CONTACT ME SECTION-->
+            <section id="contact" style="margin:20px">
+
+                <div id="c-left">
+                    <h2>Contact Me</h2>
+                </div>
+
+                <div id="c-right">
+                   
+                    <a href="https://github.com/Ellekcir" i class="fa fa-github-square" style="font-size:36px; text-decoration: none; color: aliceblue; margin: 5px "></i>
+                    <a href="https://example.com/" i class="fa fa-linkedin-square" style="font-size:36px; text-decoration: none; color: aliceblue; margin: 5px"></i>
+                    <a href="https://example.com/" i class="fa fa-twitter-square" style="font-size:36px; text-decoration: none; color: aliceblue; margin: 5px"></i>
+                    <a href="mailto:rickelle.1993@live.com.au" i class="fa fa-at" style="font-size:36px; text-decoration: none; color: aliceblue; margin: 5px"></i></a>         
+
+                </div>
+            </section>
+        </div>
+    </main>
+
+<!--FOOTER-->
+    <footer>
+        <nav id="footer-nav">
+            <a href="#h1"> Back to Top 	&#8593;</a>
+    </footer>
+</body>
+</html>
