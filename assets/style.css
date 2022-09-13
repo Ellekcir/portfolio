@@ -10,7 +10,6 @@
 
 html {
   height: 100%;
-
 }
 
 body { 
@@ -23,6 +22,7 @@ body {
   align-items: center;
   min-height: 100%;
   line-height: 2;
+  margin: 0px 0px;
 }
 
 /* Header and Nav Bar */
@@ -86,8 +86,7 @@ main {
 /*CONTACT SECTION*/
 
 #c-right a {
-  display: inline;
-
+  display: inline; 
 }
   
 
@@ -144,15 +143,18 @@ h6 {
   #a-left, #w-left, #c-left{
       flex:25%;
       border-right:5px solid var(--a);
-      padding-left: 30px;     
+      padding-left: 20px;     
   }
 
-  #a-right, #c-right {
+  #a-right {
       flex:75%;
       padding:20px;
       align-items: center;
   }
-
+  #c-right {
+      flex:75%;
+  }
+  
   #w-right {
       flex:75%;
       padding:20px;
@@ -178,9 +180,8 @@ h6 {
     }
 
   .photos {
-
-    flex: auto;
-     justify-content: space-around;
+      flex: auto;
+      justify-content: space-around;
   }
 
   .photos img {
@@ -189,7 +190,7 @@ h6 {
   }
 
   .photos img:hover {
-      transform: scale(1.6);  
+      transform: scale(1.6);     
   }
       
   }
