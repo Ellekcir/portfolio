@@ -54,7 +54,6 @@ nav a {
   background:  var(--a);
 }
 
-/* Main */
 #h1:hover {
   transform:scale(1.6);
   color: white;
@@ -69,6 +68,8 @@ nav a {
 #profile:hover {
   box-shadow: 0px 0px 20px 1px  #506a85;
 }
+
+/* MAIN */
 
 main {
   margin: 30px;
@@ -95,7 +96,7 @@ main {
 #work img:hover {
   opacity: 1;
 }
-/*CONTACT SECTION*/
+/* MAIN - CONTACT SECTION*/
 #c-right {
   text-align:center;
   padding-top: 20px;
@@ -123,6 +124,7 @@ h6 {
 
 
 /* MEDIA QUERIES */
+/* Mobiles + Small Screens*/ 
 @media screen and (min-width: 500px) {
     nav {
       width: 100%;
@@ -133,6 +135,7 @@ h6 {
   
  }
  
+ /* Laptops + Large Tablets */
  @media screen and (min-width: 1000px) {
   nav {
       width: 100%;
@@ -212,6 +215,7 @@ h6 {
       
 }
  
+/* Desktops + larger screens */
 @media screen and (min-width: 1300px) {
   #about, #work, #contact {
       flex: 100%;
