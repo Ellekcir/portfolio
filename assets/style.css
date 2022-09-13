@@ -63,7 +63,7 @@ nav a {
 #profile {
   display: block;
   margin: auto;
-  border-radius: 150px;
+  border-radius: 5px;
   border:5px solid #fff;
 }
 #profile:hover {
@@ -83,7 +83,7 @@ main {
 }
 
 #work img {
-  border-radius: 50px;
+  border-radius: 5px;
   border:5px solid #fff;
   opacity:0.6
 }
@@ -142,7 +142,7 @@ h6 {
   }
 
   #work img {
-      border-radius: 50px;
+      border-radius: 10px;
       border:5px solid white;
       opacity:0.8
   }

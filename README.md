@@ -13,9 +13,11 @@ N/A
 
 This project allows you to interact with most of the page and to maximise the users experience, starting with the ability to use the top header options; "About Me", "My Work" or "Contact Me" to navigate to the designated content on the page. This will create a smooth scroll there. Both the "My Work" and "Contact Me" section provide links to external resources & the "My Work" images highlight when hovered over for a better visual effect. 
 
-```md
+
 ![Main Screen Shot](assets/images/Main-screen.jpg)
-```
+
+![Contact Bar](assets/images/ContactMe.jpg)
+
 The UI will adjust for better accessiblity and will adapt to the devices resolution, ensuring a better interaction with the webpage. 
 
 Please see some of the examples provided:
