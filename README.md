@@ -2,14 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-
 This project is my first step to a career path in Web Development, I created this space as a portfolio of my journey and progress. This portfolio isn't just to showcase for my final projects but to show the progress and also to continue to use it as a tool that will be used to reflect on and develop myself further. The target of this project is to remotely deliver samples of my work and share my journey through out my Bootcamp in Coding and my Career progression. I have started from near to none a experience and have exceeded my own expectations by completing this project in a fast paced environment and having a satisfactory end product. The biggest challenge for this project was learning the power and functionality of flexboxes, creating this has given me a wider understanding to CSS.
 
 
@@ -19,44 +11,34 @@ N/A
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+This project allows you to interact with most of the page and to maximise the users experience, starting with the ability to use the top header options; "About Me", "My Work" or "Contact Me" to navigate to the designated content on the page. This will create a smooth scroll there. Both the "My Work" and "Contact Me" section provide links to external resources & the "My Work" images highlight when hovered over for a better visual effect. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+```md
+![Main Screen Shot](assets/images/Main-screen.jpg)
+```
+The UI will adjust for better accessiblity and will adapt to the devices resolution, ensuring a better interaction with the webpage. 
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+Please see some of the examples provided:
+
+![Nav Bar Bigger Resolution Screens](assets/images/nav-bar-banner.jpg)
+![Nav Bar Mobile Screens](assets/images/nav-bar-mobile.jpg)
+![Images Mobile Screens](assets/images/Mobile-View.jpg)
+
+To access the full deployed website please use link below:
+
+https://ellekcir.github.io/portfolio/
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+ADL Uni Bootcamp 
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT License
 
----
+Please see LICENSE for details
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
-## Badges
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
